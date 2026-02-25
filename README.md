@@ -1,59 +1,89 @@
-Quantitative Risk Modeling & Time-Series Forecasting
-Overview
+# JPMorgan Quantitative Research Simulation
 
-This project simulates quantitative research tasks focused on financial time-series modeling and credit risk analysis. It includes price forecasting using regression techniques and Probability of Default (PD) estimation using classification models.
+## Overview
 
-Project Components
-1️⃣ Time-Series Modeling
+This repository contains work completed as part of the **JPMorgan Chase & Co. Quantitative Research Virtual Experience Program (Forage)**.
 
-Modeled Natural Gas prices using deterministic trend components.
+The project simulates core quantitative research tasks, including:
 
-Incorporated seasonal structure using Fourier-based terms.
+* Financial time-series modeling and forecasting
+* Credit risk modeling and Probability of Default (PD) estimation
+* Statistical evaluation and model performance analysis
+* Algorithmic risk segmentation
 
-Generated out-of-sample forecasts.
+The objective was to apply statistical and quantitative techniques to financial datasets within a structured research workflow.
 
-Evaluated predictive behavior and generalization.
+---
 
-2️⃣ Credit Risk Modeling
+## Project Structure
 
-Analyzed loan-level financial data.
+### Task 1 – Financial Time-Series Modeling
 
-Estimated Probability of Default (PD) using supervised classification.
+Modeled Natural Gas price behavior using deterministic regression techniques.
 
-Evaluated model performance using:
+Key components:
 
-ROC-AUC
+* Trend modeling using deterministic processes
+* Seasonal structure using Fourier-based terms
+* Construction of design matrices
+* In-sample fitting and out-of-sample forecasting
 
-Confusion Matrix
+This task focused on capturing temporal structure and evaluating model generalization for price prediction.
 
-Classification metrics
+---
 
-Computed cumulative default rates across credit score ranges.
+### Task 2 – Credit Risk Modeling
 
-Implemented algorithmic credit score binning for improved risk segmentation.
+Analyzed loan-level financial data to estimate **Probability of Default (PD)**.
 
-Tools & Techniques
+Key steps:
 
-Python
+* Data cleaning and preprocessing
+* Logistic regression modeling
+* Model performance evaluation using:
 
-Pandas, NumPy
+  * ROC-AUC
+  * Confusion Matrix
+  * Classification metrics
 
-Statistical Modeling
+This task emphasized statistical classification techniques and interpretation of risk probabilities.
 
-Time-Series Analysis
+---
 
-Model Evaluation
+### Task 3 – Default Rate Analysis by Credit Score
 
-Data Validation
+Performed structured analysis of default behavior across credit score segments.
 
-Key Skills Demonstrated
+Key components:
 
-Financial data analysis
+* Cumulative default rate computation
+* Risk segmentation analysis
+* Statistical comparison across score ranges
 
-Time-series forecasting
+This stage focused on understanding how default probability varies across borrower quality tiers.
 
-Risk modeling
+---
 
-Quantitative evaluation
+### Task 4 – Algorithmic Credit Score Binning
 
-Structured data preprocessing
+Implemented an algorithmic approach to convert continuous credit scores into optimized categorical risk groups.
+
+Key concepts:
+
+* Dynamic programming logic for score partitioning
+* Log-likelihood optimization
+* Risk segmentation interpretability
+
+This task demonstrated structured quantitative reasoning and optimization techniques.
+
+---
+
+## Tools & Techniques Used
+
+* Python
+* Pandas, NumPy
+* Statistical Modeling
+* Time-Series Analysis
+* Classification Modeling
+* Model Evaluation Metrics
+* Data Validation & Preprocessing
